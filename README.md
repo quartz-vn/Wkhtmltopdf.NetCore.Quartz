@@ -29,7 +29,7 @@ Those files will need to be included in your project with the propierty "Copy Al
         public void ConfigureServices(IServiceCollection services)
         {            
             services.AddControllers();
-            services.AddWkhtmltopdf();
+            services.AddWkhtmltopdf(Path.Combine(Directory.GetCurrentDirectory(), "Rotativa"));
         }
         
 If you are using the docker container for net core provided from microsoft, you need to add this line to the dockerfile "RUN apt-get update -qq && apt-get -y install libgdiplus libc6-dev", like this
