@@ -3,14 +3,14 @@
   <PropertyGroup>
     <TargetFrameworks>netcoreapp2.1</TargetFrameworks>
     <AssemblyName>Wkhtmltopdf.Quartz</AssemblyName>
-    <AssemblyVersion>1.0.0.0</AssemblyVersion>
-    <FileVersion>1.0.0.1</FileVersion>
-    <Version>1.0.0.1</Version>
+    <AssemblyVersion>1.0.0</AssemblyVersion>
+    <FileVersion>1.0.2</FileVersion>
+    <Version>1.0.2</Version>
     <PackageProjectUrl>https://github.com/quartz-vn/Wkhtmltopdf.NetCore.Quartz</PackageProjectUrl>
     <Description>
       This project implements the library wkhtmltopdf for asp net core and a view engine, working in windows, macos, linux and docker.
     </Description>
-    <PackageReleaseNotes>improvements in options + new generations methods</PackageReleaseNotes>
+    <PackageReleaseNotes>improvements and Update Path Rotativa</PackageReleaseNotes>
   </PropertyGroup>
 
   <ItemGroup>
